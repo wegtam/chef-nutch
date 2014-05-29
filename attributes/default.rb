@@ -20,7 +20,7 @@
 # Some useful default settings for nutch.
 default['nutch']['nutch-site'] = {
   'http.agent.name' => 'Nutch Spider',
-  'plugin.includes' => 'protocol-(file|http)|urlfilter-regex|parse-(html|tika)|index-(basic|anchor)|scoring-opic|urlnormalizer-(pass|regex|basic)',
+  'plugin.includes' => 'protocol-(file|http)|urlfilter-regex|parse-(html|tika|metatags)|index-(basic|anchor|metadata)|scoring-opic|urlnormalizer-(pass|regex|basic)',
   'metatags.names' => 'description;keywords',
   'index.parse.md' => 'metatag.description,metatag.keywords'
 }

@@ -32,7 +32,7 @@ The following attributes are provided with defaults:
     <td><tt>plugin.includes</tt></td>
     <td>String</td>
     <td>Plugins to load</td>
-    <td><pre><code>protocol-(file|http)|urlfilter-regex|parse-(html|tika)|index-(basic|anchor)|scoring-opic|urlnormalizer-(pass|regex|basic)</code></pre></td>
+    <td><pre><code>protocol-(file|http)|urlfilter-regex|parse-(html|tika|metatags)|index-(basic|anchor|metadata)|scoring-opic|urlnormalizer-(pass|regex|basic)</code></pre></td>
   </tr>
   <tr>
     <td><tt>metatags.names</tt></td>
